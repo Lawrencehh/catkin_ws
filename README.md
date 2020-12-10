@@ -28,6 +28,9 @@ rosrun simple_navigation_goals simple_navigation_goals
 export TURTLEBOT3_MODEL=burger 
 //设置模型为burger
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
+//默认9柱子场地
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+//空白场地
 ```
 2. 启动navigation
 ```
