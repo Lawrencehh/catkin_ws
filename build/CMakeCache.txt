@@ -142,7 +142,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=
+CATKIN_WHITELIST_PACKAGES:STRING=att_ekf
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -908,6 +908,12 @@ amcl_sensors_LIB_DEPENDS:STATIC=general;amcl_map;general;amcl_pf;
 angles_DIR:PATH=/opt/ros/kinetic/share/angles/cmake
 
 //Value Computed by CMake
+att_ekf_BINARY_DIR:STATIC=/home/andy/catkin_ws/build/att_ekf
+
+//Value Computed by CMake
+att_ekf_SOURCE_DIR:STATIC=/home/andy/catkin_ws/src/att_ekf
+
+//Value Computed by CMake
 base_local_planner_BINARY_DIR:STATIC=/home/andy/catkin_ws/build/navigation/base_local_planner
 
 //The directory containing a CMake configuration file for base_local_planner.
@@ -1086,7 +1092,7 @@ laser_geometry_DIR:PATH=/opt/ros/kinetic/share/laser_geometry/cmake
 layers_LIB_DEPENDS:STATIC=general;costmap_2d;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/kinetic/share/map_msgs/cmake
@@ -1580,7 +1586,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=32
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

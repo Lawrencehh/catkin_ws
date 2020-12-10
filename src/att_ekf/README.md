@@ -1,3 +1,6 @@
+# 参考链接:
+https://zhuanlan.zhihu.com/p/80365835
+
 # att_ekf
 Extented Kalman filter for attitude estimation using imu and magnetic filed.
 
