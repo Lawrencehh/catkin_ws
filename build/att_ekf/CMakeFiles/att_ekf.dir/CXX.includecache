@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/andy/catkin_ws/src/att_ekf/src/att_ekf.cpp
+/home/ubuntu/catkin_ws/src/att_ekf/src/att_ekf.cpp
 att_ekf.h
-/home/andy/catkin_ws/src/att_ekf/src/att_ekf.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/att_ekf.h
 iostream
 -
 Eigen/Eigen
 -
 
-/home/andy/catkin_ws/src/att_ekf/src/att_ekf.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/att_ekf.h
 iostream
 -
 Eigen/Eigen
 -
 conversion.h
-/home/andy/catkin_ws/src/att_ekf/src/conversion.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/conversion.h
 
-/home/andy/catkin_ws/src/att_ekf/src/att_ekf_node.cpp
+/home/ubuntu/catkin_ws/src/att_ekf/src/att_ekf_node.cpp
 iostream
 -
 ros/ros.h
@@ -38,13 +38,13 @@ geometry_msgs/Vector3Stamped.h
 Eigen/Eigen
 -
 att_ekf.h
-/home/andy/catkin_ws/src/att_ekf/src/att_ekf.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/att_ekf.h
 conversion.h
-/home/andy/catkin_ws/src/att_ekf/src/conversion.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/conversion.h
 deque
 -
 
-/home/andy/catkin_ws/src/att_ekf/src/conversion.cpp
+/home/ubuntu/catkin_ws/src/att_ekf/src/conversion.cpp
 iostream
 -
 Eigen/Geometry
@@ -52,7 +52,7 @@ Eigen/Geometry
 Eigen/Dense
 -
 
-/home/andy/catkin_ws/src/att_ekf/src/conversion.h
+/home/ubuntu/catkin_ws/src/att_ekf/src/conversion.h
 iostream
 -
 Eigen/Geometry
@@ -1902,27 +1902,13 @@ math_constants.h
 
 /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h
-./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/././HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h
-./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/././HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
-
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
 ./ComplexSchur.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
 ./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_MKL.h
 Eigen/src/Core/util/MKL_support.h
@@ -1930,15 +1916,15 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
 ./RealSchur.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
 ./RealQZ.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
 ./Tridiagonalization.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
@@ -1948,7 +1934,7 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
 ./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur_MKL.h
 Eigen/src/Core/util/MKL_support.h
@@ -1956,7 +1942,7 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
 ./Tridiagonalization.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_MKL.h
 Eigen/src/Core/util/MKL_support.h

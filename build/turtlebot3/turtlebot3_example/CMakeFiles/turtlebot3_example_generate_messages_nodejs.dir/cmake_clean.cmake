@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
+  "/home/ubuntu/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
   "CMakeFiles/turtlebot3_example_generate_messages_nodejs"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
-  "/home/andy/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
 )
 
 # Per-language clean rules from dependency scanning.

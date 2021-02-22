@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/ubuntu/catkin_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics"
+  "/home/ubuntu/catkin_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics.pdb"
   "CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o"
-  "/home/andy/catkin_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics.pdb"
-  "/home/andy/catkin_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics"
 )
 
 # Per-language clean rules from dependency scanning.

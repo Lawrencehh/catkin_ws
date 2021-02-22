@@ -1,4 +1,4 @@
-prefix=/home/andy/catkin_ws/devel
+prefix=/home/ubuntu/catkin_ws/devel
 
 Name: att_ekf
 Description: Description of att_ekf

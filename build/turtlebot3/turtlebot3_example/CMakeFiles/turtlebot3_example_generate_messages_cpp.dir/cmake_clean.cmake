@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
+  "/home/ubuntu/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
   "CMakeFiles/turtlebot3_example_generate_messages_cpp"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
-  "/home/andy/catkin_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
 )
 
 # Per-language clean rules from dependency scanning.

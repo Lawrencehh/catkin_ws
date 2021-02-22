@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/ubuntu/catkin_ws/devel/share/roseus/ros/att_ekf/manifest.l"
   "CMakeFiles/att_ekf_generate_messages_eus"
-  "/home/andy/catkin_ws/devel/share/roseus/ros/att_ekf/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

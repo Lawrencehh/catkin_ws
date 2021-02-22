@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/ubuntu/catkin_ws/devel/lib/simple_navigation_goals/simple_navigation_goals"
+  "/home/ubuntu/catkin_ws/devel/lib/simple_navigation_goals/simple_navigation_goals.pdb"
   "CMakeFiles/simple_navigation_goals.dir/src/simple_navigation_goals.cpp.o"
-  "/home/andy/catkin_ws/devel/lib/simple_navigation_goals/simple_navigation_goals.pdb"
-  "/home/andy/catkin_ws/devel/lib/simple_navigation_goals/simple_navigation_goals"
 )
 
 # Per-language clean rules from dependency scanning.

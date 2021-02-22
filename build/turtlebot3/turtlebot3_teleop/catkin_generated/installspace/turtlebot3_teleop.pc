@@ -1,4 +1,4 @@
-prefix=/home/andy/catkin_ws/install
+prefix=/home/ubuntu/catkin_ws/install
 
 Name: turtlebot3_teleop
 Description: Description of turtlebot3_teleop

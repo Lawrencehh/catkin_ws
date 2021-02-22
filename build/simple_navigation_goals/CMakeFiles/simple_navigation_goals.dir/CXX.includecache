@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/andy/catkin_ws/src/simple_navigation_goals/src/simple_navigation_goals.cpp
+/home/ubuntu/catkin_ws/src/simple_navigation_goals/src/simple_navigation_goals.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h

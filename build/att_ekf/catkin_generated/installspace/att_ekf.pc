@@ -1,4 +1,4 @@
-prefix=/home/andy/catkin_ws/install
+prefix=/home/ubuntu/catkin_ws/install
 
 Name: att_ekf
 Description: Description of att_ekf

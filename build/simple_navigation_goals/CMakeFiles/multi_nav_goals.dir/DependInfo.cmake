@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andy/catkin_ws/src/simple_navigation_goals/src/multi_nav_goals.cpp" "/home/andy/catkin_ws/build/simple_navigation_goals/CMakeFiles/multi_nav_goals.dir/src/multi_nav_goals.cpp.o"
+  "/home/ubuntu/catkin_ws/src/simple_navigation_goals/src/multi_nav_goals.cpp" "/home/ubuntu/catkin_ws/build/simple_navigation_goals/CMakeFiles/multi_nav_goals.dir/src/multi_nav_goals.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/andy/catkin_ws/src/simple_navigation_goals/include"
+  "/home/ubuntu/catkin_ws/src/simple_navigation_goals/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

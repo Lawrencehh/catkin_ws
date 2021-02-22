@@ -67,14 +67,14 @@ set(att_ekf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(att_ekf_SOURCE_PREFIX /home/andy/catkin_ws/src/att_ekf)
-  set(att_ekf_DEVEL_PREFIX /home/andy/catkin_ws/devel)
+  set(att_ekf_SOURCE_PREFIX /home/ubuntu/catkin_ws/src/att_ekf)
+  set(att_ekf_DEVEL_PREFIX /home/ubuntu/catkin_ws/devel)
   set(att_ekf_INSTALL_PREFIX "")
   set(att_ekf_PREFIX ${att_ekf_DEVEL_PREFIX})
 else()
   set(att_ekf_SOURCE_PREFIX "")
   set(att_ekf_DEVEL_PREFIX "")
-  set(att_ekf_INSTALL_PREFIX /home/andy/catkin_ws/install)
+  set(att_ekf_INSTALL_PREFIX /home/ubuntu/catkin_ws/install)
   set(att_ekf_PREFIX ${att_ekf_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/andy/catkin_ws/install/lib;/home/andy/catkin_ws/devel/lib;/home/andy/xRobot_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ubuntu/catkin_ws/install/lib;/home/ubuntu/xRobot_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
