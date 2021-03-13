@@ -4,7 +4,7 @@
   <!-- <arg name="map_file" default="$(find turtlebot3_navigation)/maps/map.yaml"/> -->
 
   <!-- 设置空白地图 -->
-  <arg name="map_file" default="$(find turtlebot3_navigation)/maps/blank_map.yaml"/>
+  <arg name="map_file" default="$(find turtlebot3_navigation)/maps/my_map.yaml"/>
   <arg name="open_rviz" default="true"/>
   <arg name="move_forward_only" default="false"/>
 
